@@ -21,7 +21,7 @@ html, body {
 }
 
 .top {
-    /* background-image: url("./images/bg.jpg"); */
+    background-image: url("./images/bg.jpg");
 }
 
 .runner {
@@ -233,6 +233,8 @@ nav img {
 
 .services-over h1 {
     color: white;
+    padding-top: 8px;
+    text-align: center;
 }
 
 .services-over button {
@@ -376,8 +378,9 @@ input::placeholder {
 }
 
 .footer-logo h2 {
-    color: white;
-    font-size: 16px;
+    color: rgb(83, 83, 83);
+    font-size: 18px;
+    font-weight: 900;
     font-weight: 300;
 
     display: flex;
@@ -574,7 +577,8 @@ input::placeholder {
     }
 
     .aside-container {
-        margin: 0rem 3rem 2.9rem;
+        margin: 0rem 2rem 2.9rem;
+        height: 550px;
     }
 
     .aside-container h1 {
@@ -589,6 +593,7 @@ input::placeholder {
         color: white;
         font-size: 2rem;
         padding: 1rem 2rem 2rem;
+        text-align: center;
     }
 
     footer {
@@ -646,8 +651,8 @@ input::placeholder {
     }
 
     .footer-logo h2 {
-        color: white;
-        font-size: 16px;
+        color: rgb(83, 83, 83);
+        font-size: 13px;
         font-weight: 300;
         text-align: center;
     }
