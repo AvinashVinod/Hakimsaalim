@@ -21,7 +21,7 @@ html, body {
 }
 
 .top {
-    background-image: url("./images/bg.jpg");
+    /* background-image: url("./images/bg.jpg"); */
 }
 
 .runner {
@@ -567,6 +567,10 @@ input::placeholder {
         margin: 0rem 2rem 2.9rem;
 
         columns: 1;
+    }
+
+    .services .style {
+        margin-bottom: 30px;
     }
 
     .aside-container {
